@@ -21,10 +21,10 @@ class Game {
 
     //Initialize the obejct game
     constructor() {
-        this.canvas = document.getElementById("jogo")
-        this.ctx = this.canvas.getContext('2d')
-        this.canvas.height = innerHeight - 6
-        this.canvas.width = innerWidth - 2
+        this.canvas = document.getElementById("jogo");
+        this.ctx = this.canvas.getContext('2d');
+        this.canvas.height = innerHeight - 6;
+        this.canvas.width = innerWidth - 2;
 
         this.leftPressed = false
         this.upPressed = false
