@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+}
+
+#jogo{
+    border: 1px solid red;
+    background-color: black; 
+}
+
+#fuelModal{
+    display: none;
+}
+
